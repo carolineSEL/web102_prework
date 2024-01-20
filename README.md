@@ -1,10 +1,10 @@
-# WEB102 Prework - *Name of App Here*
+# WEB102 Prework - *Seamonster Games*
 
-Submitted by: **Your Name Here**
+Submitted by: **Caroline Lamb**
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+**Seamonster Games** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **X** hours spent in total
+Time spent: **5** hours spent in total
 
 ## Required Features
 
@@ -17,24 +17,25 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [ ] A search bar at the top of the page where users can search for specific games on the site.
+* [ ] An animated, gradient background that fits with the "Seamonster" theme of the company.
+* [ ] Hover effects on the stats boxes and the game cards that enhances the size of the box and adds a glow around each individual box.
+* [ ] Styling on the heading title, "Seamonster Crowdfunding" to draw attention to the title of the company.
+* [ ] Color change on the "Show Unfunded Only", "Show Funded Only", and "Show All Games" buttons when the button is selected.
+* [ ] A gray color for the H3 and H2 elements to make them stand out against other text. 
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+[![Video Walkthrough](https://i.imgur.com/tfGn8lL.mp4)](https://i.imgur.com/tfGn8lL.mp4)
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+video created with [ScreenToGif](https://www.screentogif.com/) for Windows and posted on imgur. 
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+    While building this app, one of the biggest challenges I faced came when I started implementing new design features. Adding a more complex background design caused some of the functionality of the site to break. For example, the animation that I added to the background overrode the functionality of the "Show Unfunded Only", "Show Funded Only", and "Show All Games" buttons, so that when the buttons were clicked, they no longer had any functionality. I solved this issue by giving the background animation class a negative z index value in css and gave the buttons' css class a higher z index value. 
+    I also had some issues when trying to implement the functionality of the buttons to display the correct game cards, because I originally added the "deleteChildElements()" function outside of the function for the buttons, which caused no game cards to display at all. I fixed this issue by only deleting the child elements at the start of the function before adding the code to display the game cards, this way, the previously shown game cards were erased from the UI before displaying the game cards that we wanted to display. 
 
 ## License
 
