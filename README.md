@@ -28,9 +28,9 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-[![Video Walkthrough](https://i.imgur.com/tfGn8lL.mp4)](https://i.imgur.com/tfGn8lL.mp4)
+[Video Walkthrough](https://youtu.be/kBG9nyfFMk4)
 
-video created with [ScreenToGif](https://www.screentogif.com/) for Windows and posted on imgur. 
+video created with [ScreenToGif](https://www.screentogif.com/) for Windows and posted on YouTube. 
 
 ## Notes
 
